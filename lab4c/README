@@ -1,0 +1,21 @@
+NAME: Ankith Uppunda
+EMAIL: auppunda@gmail.com
+ID: 004782343
+
+
+Makefile: contains default target, clean, and dist.
+	dist: creates distribution tarball	
+	clean: removes files created by makefile
+	default: builds the program
+
+
+lab4c_tcp.c: uses tcp connection to connect to a server
+specified by a commandline argument. Reports temperature,
+and takes in commands from the server.
+
+lab4c_tls.c: makes a tls connection on top of the normal
+tcp connection to provide an encrypted channel for data from
+the program and the server that it connects to. Uses openssl
+to create tls handshake. Reports temperature and takes in 
+commands from the server. Log files is made mandatory for
+both tcp and tls. 

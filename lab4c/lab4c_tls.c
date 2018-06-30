@@ -416,12 +416,12 @@ int main(int argc, char **argv) {
 	}
 	port = atoi(argv[argc-1]);
 
-
+	
 	if(logfile == NULL) {
 		fprintf(stderr, "Log Mandatory\n");
 		exit(1);
 	}
-	
+
 	if(host == NULL) {
 		fprintf(stderr, "Invalid host : %s", strerror(errno));
 		exit(1);
