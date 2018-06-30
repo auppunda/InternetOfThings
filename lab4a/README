@@ -1,0 +1,17 @@
+NAME:Ankith Uppunda
+EMAIL:auppunda@gmail.com
+ID:004782343
+
+Serial Number: BBGW17051853
+Wifi Mac: 2CF7F10666CB
+
+my_beaglebone.jpg: picture of my hand and my beaglebone
+
+connected.png: picture showing ifconfig, after configuring the wifi, and renaming my beaglebone
+
+copy.png: used scp to copy hello.c which is the hello world program to the wifi address of the beagle bone which is 172.20.10.4
+
+build_run.png: built hello.c with gcc, then ran it, sshed into 172.20.10.4 not the usb connection
+
+git.png: used apt-get to download git, then git cloned my ruleparser repository
+
